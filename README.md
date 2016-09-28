@@ -4,53 +4,53 @@ npm install domix --save
 ```
 
 ## hasClass
-```
+```js
 var hasClass = require('domix/hasClass');
 hasClass(DOMNode, 'foo'); // => true
 ```
 ## addClass
-```
+```js
 var addClass = require('domix/addClass');
 addClass(DOMNode, 'foo'); 
 ```
 ## removeClass
-```
+```js
 var removeClass = require('domix/removeClass');
 removeClass(DOMNode, 'foo'); 
 ```
 ## toggleClass
-```
+```js
 var toggleClass = require('domix/toggleClass');
 toggleClass(DOMNode, 'foo'); 
 ```
 ## on
-```
+```js
 var on = require('domix/on');
 on(DOMNode,'click',handler);
 ```
 ## off
-```
+```js
 var off = require('domix/on');
 off(DOMNode,'click',handler);
 ```
 
 ## getEvent
-```
+```js
 var getEvent = require('domix/getEvent');
 var cross_browser_event = getEvent(event);
 ```
 ## getTarget
-```
+```js
 var getTarget = require('domix/getTarget');
 var cross_browser_target = getTarget(event);
 ```
 ## preventDefault
-```
+```js
 var getTarget = require('domix/preventDefault');
 preventDefault(event);
 ```
 ## stopPropagation
-```
+```js
 var stopPropagation = require('domix/stopPropagation');
 stopPropagation(event);
 ```
