@@ -1,5 +1,6 @@
 # domix
 >A mix of cross-browser methods for DOM manipulation. 
+
 ```
 npm install domix --save
 ```
